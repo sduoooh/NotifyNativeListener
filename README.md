@@ -19,7 +19,7 @@ The purpose is solely to obtain new information from applications like QQ withou
 
 The implementation path mentioned has its drawbacks. On one hand, applications like QQNt provide very limited information through the system push service, and the structure and semantics of this information are particularly challenging to analyze directly due to the reuse of push service calls. On the other hand, the effectiveness of this implementation path heavily relies on the support and implementation of system notifications by these applications. If you have other requirements or need more precise results, it is not recommended to use this implementation path.
 
-该实现路径的缺点是，一方面 QQNt 等应用对系统推送服务仅提供及其有限的信息，并因为推送服务的调用复用，其信息的结构语义尤其难以直接分析；另一方面，该路径的实现效果强依赖于这些应用对系统通知的支持及其实现方式。若有其他需求或对精确度的要求不那么粗糙，及其不建议通过该实现路径实现。
+该实现路径的缺点是，一方面 QQNt 等应用对系统推送服务仅提供及其有限的信息，并因为推送服务的调用复用，其信息的结构语义尤其难以直接分析；另一方面，该路径的实现效果强依赖于这些应用对系统通知的支持及其实现方式。若有其他需求或对精确度的要求不那么粗糙，极其不建议通过该实现路径实现。
 
 
 The demo uses the websocket library [websocket-sharp](https://github.com/sta/websocket-sharp) for establishing a websocket connection.
